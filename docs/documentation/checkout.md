@@ -28,4 +28,18 @@ You need to pass information such as appId, amount, metadata, etc. The table bel
 
 You can use wano in your application like in the example below:
 
+<!-- import packages to use code snippet in tabs -->
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import CodeBlock from '@theme/CodeBlock';
+import JsCodeSnippet from '!!raw-loader!./code-block-files/checkout.js';
+import HTMLCodeSnippet from '!!raw-loader!./code-block-files/checkout.html';
 
+<Tabs>
+  <TabItem value="apple" label="HTML" default>
+  <CodeBlock language="html">{HTMLCodeSnippet}</CodeBlock>
+  </TabItem>
+  <TabItem value="javascript" label="Javascript">
+    <CodeBlock language="javascript">{JsCodeSnippet}</CodeBlock>
+  </TabItem>
+</Tabs>
